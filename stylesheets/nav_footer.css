@@ -1,7 +1,17 @@
 /* HEADER */
 
+nav{
+  background-color: #442D93;
+}
+
 /* Botão Pular para Conteúdo Principal */
-nav .logo .pularNavegacao {}
+nav .logo .pularNavegacao {
+  
+}
+
+nav .logo img{
+  background-color: #a4a1b5;
+}
 
 /* Caixa do Logotipo + Botão de compartilhamento */
 /* nav .logo img,
@@ -10,28 +20,103 @@ nav .nav-link  {
 } */
 
 /* Botão de compartilhamento */
-nav .nav-link {}
+nav .nav-link {
+  background-color: #a4a1b5;
+  color: #fff;
+}
 nav .nav-link:focus,
 nav .nav-link:hover,
 nav .nav-link[aria-expanded="true"] {}
 
+
+.inicio-REA{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio-REA > img{
+  width: 45%;
+  margin-bottom: 70px;
+}
+
+.rea-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rea-title > h1{
+  font-family: 'Archivo';
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 74px;
+}
+
+.line-title{
+  height: 13px;
+  background-color: #86acd1;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.line-title:nth-child(1){
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.inicio-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.inicio-text > p{
+  font-family: 'Archivo';
+  color: #fff;
+  font-size: 20pt;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.inicio-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-chevron-down{
+  color: #86acd1;
+  font-size: 90px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 /* FOOTER */
 /* Cores de fonte + contornos */
-/* footer, footer .sharing i {
-  color: red;
+
+footer{
+  background-color: #442D93;
+}
+ footer, footer .sharing i {
+  color: #fff;
 }
 footer .cred-rea>div:not(:first-child) {
-  border-left-color: red;
+  border-left-color: #fff;
 }
 footer .aval-rea .btn-secondary {
-  border-color: red;
+  border-color: #fff;
 }
 @media (max-width: 1199.98px) {
   footer .sharing i {
-    background-color: red;
-    color:  white;
+    background-color: #fff;
+    color:  #442D93;
   }
-} */
+} 
 footer .aval-rea .btn-secondary:hover,
 footer .aval-rea .btn-secondary:focus {}
 
