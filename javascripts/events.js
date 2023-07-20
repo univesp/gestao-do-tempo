@@ -19,4 +19,45 @@ $(document).ready(function(){
 
   // Seu código abaixo
 
+  const conteudos = ['conteudo1', 'conteudo2', 'conteudo3', 'conteudo4', 'conteudo5', 'conteudo6', 'conteudo7', 'conteudo8'];
+
+  let conteudoItems = document.querySelectorAll('.conteudo');
+
+  conteudoItems.forEach(e => {
+    if(e.id !== 'conteudo1'){
+      e.style.display = 'none';
+    }
+  })
+
+  document.addEventListener('click', (e)=>{
+    let elementId = e.target.id;
+    
+
+    switch (elementId){
+
+      case 'menu1':
+        conteudoItems.forEach(e => {
+          if(e.id === 'conteudo1'){
+            e.style.display = 'flex';
+          }else{
+            e.style.display = 'none';
+          }
+        })
+        break;
+
+      case 'menu2':
+        conteudoItems.forEach(e => {
+          if(e.id === 'conteudo2'){
+            e.style.display = 'flex';
+          }else{
+            e.style.display = 'none';
+          }
+        })
+        break;
+
+      
+
+    }
+  })
+
 })

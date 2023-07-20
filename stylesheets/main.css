@@ -1,3 +1,69 @@
 body {
   background-color: #DFE6E8;
 }
+
+#conteudoPrincipal > .container{
+  margin-top: 30px;
+}
+
+#conteudoPrincipal > .container > p{
+  font-family: 'Archivo';
+  font-size: 18pt;
+}
+
+.menu-numeros{
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 50px;
+}
+#menu1{
+  font-weight: bold;
+}
+
+.menu-numeros > span{
+  color: #442D93;
+  font-size: 28px;
+  cursor: pointer;
+  font-family: 'Archivo';
+}
+
+.divisao-menu{
+  background-color: #442D93;
+  width: 105%;
+  margin-left: -25px;
+}
+
+
+/* CONTEUDO */
+.subtitle-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 100px;
+}
+
+.subtitle-title{
+  width: 55%;
+}
+
+.subtitle-title > h2{
+  color: #442D93;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Archivo';
+}
+
+.subtitle-title > p{
+  font-family: 'Archivo';
+  font-size: 17pt;
+}
+
+.subtitle-image > img{
+  width: 100%;
+}
+
+.conteudo-content{
+  background-color: #fff;
+}
