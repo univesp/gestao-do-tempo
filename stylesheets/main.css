@@ -36,6 +36,11 @@ body {
 
 
 /* CONTEUDO */
+
+.conteudo{
+  margin-left: -50px;
+}
+
 .subtitle-area{
   display: flex;
   align-items: center;

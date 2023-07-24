@@ -19,45 +19,45 @@ $(document).ready(function(){
 
   // Seu código abaixo
 
-  const conteudos = ['conteudo1', 'conteudo2', 'conteudo3', 'conteudo4', 'conteudo5', 'conteudo6', 'conteudo7', 'conteudo8'];
-
   let conteudoItems = document.querySelectorAll('.conteudo');
+  let menus = document.querySelectorAll('.menu-nums');
+  let qtdeConteudos = 8;
 
   conteudoItems.forEach(e => {
     if(e.id !== 'conteudo1'){
       e.style.display = 'none';
     }
-  })
+  });
 
-  document.addEventListener('click', (e)=>{
-    let elementId = e.target.id;
+  // Troca conteúdos quando clica no numero (menu)
+  for (let i = 1; i < qtdeConteudos+1; i++) {
+  
+    document.addEventListener('click', (e)=>{
+      let elementId = e.target.id;
+  
+      switch (elementId){
+  
+        case `menu${i}`:
+          conteudoItems.forEach(e => {
+            if(e.id === `conteudo${i}`){
+              e.style.display = 'flex';
+            }else{
+              e.style.display = 'none';
+            }
+          });
+          menus.forEach(e => {
+            if(e.id === `menu${i}`){
+              e.style.fontWeight = 'bold';
+            }else{
+              e.style.fontWeight = '400';
+            }
+          });
+          break;
+  
+      }
+    })
     
-
-    switch (elementId){
-
-      case 'menu1':
-        conteudoItems.forEach(e => {
-          if(e.id === 'conteudo1'){
-            e.style.display = 'flex';
-          }else{
-            e.style.display = 'none';
-          }
-        })
-        break;
-
-      case 'menu2':
-        conteudoItems.forEach(e => {
-          if(e.id === 'conteudo2'){
-            e.style.display = 'flex';
-          }else{
-            e.style.display = 'none';
-          }
-        })
-        break;
-
-      
-
-    }
-  })
+  }
+  
 
 })
