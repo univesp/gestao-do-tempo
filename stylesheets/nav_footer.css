@@ -47,7 +47,7 @@ nav .nav-link[aria-expanded="true"] {}
   align-items: center;
 }
 
-.rea-title > h1{
+.rea-title > h1, .rea-title > h3{
   font-family: 'Archivo';
   text-transform: uppercase;
   color: #fff;

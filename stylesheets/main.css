@@ -2,6 +2,10 @@ body {
   background-color: #DFE6E8;
 }
 
+main{
+  padding-bottom: 0;
+}
+
 #conteudoPrincipal > .container{
   margin-top: 30px;
 }
@@ -71,4 +75,30 @@ body {
 
 .conteudo-content{
   background-color: #fff;
+  padding-top: 50px;
+}
+
+.conteudo-content > .rea-title{
+  margin-bottom: 30px;
+}
+
+.conteudo-content > p{
+  font-family: 'Archivo';
+  font-size: 20px;
+  width: 75%;
+  margin-left: 12%;
+}
+
+.img-conteudo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+
+.img-conteudo > p{
+  font-family: 'Archivo';
+  font-size: 20px;
+  margin-top: 70px;
 }
