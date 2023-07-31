@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1114.49 427.44">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: Archivo-Bold, Archivo;
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #009691;
+      }
+
+      .cls-4 {
+        fill: #6957a9;
+      }
+
+      .cls-5 {
+        fill: #b4abd4;
+      }
+
+      .cls-6 {
+        fill: #adc8d3;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-9 {
+        stroke: #6957a9;
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10 {
+        stroke: #009691;
+      }
+
+      .cls-11 {
+        stroke: #b4abd4;
+      }
+
+      .cls-12 {
+        stroke: #adc8d3;
+      }
+
+      .cls-13 {
+        font-family: Archivo-Regular, Archivo;
+        font-size: 18px;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-5" x="335.79" y="38.44" width="243" height="188"/>
+      <rect class="cls-4" x="592.79" y="38.44" width="243" height="188"/>
+      <rect class="cls-3" x="335.79" y="239.44" width="243" height="188"/>
+      <rect class="cls-6" x="592.79" y="239.44" width="243" height="188"/>
+      <text class="cls-1" transform="translate(401.73 17.26)"><tspan x="0" y="0">URGENTES</tspan></text>
+      <text class="cls-1" transform="translate(308.86 214.62) rotate(-90)"><tspan x="0" y="0">IMPOR</tspan><tspan class="cls-8" x="65.56" y="0">T</tspan><tspan class="cls-14" x="76.3" y="0">ANTES</tspan></text>
+      <text class="cls-1" transform="translate(282.78 355.66) rotate(-90)"><tspan x="0" y="0">NÃO</tspan><tspan x="-49.82" y="24">IMPOR</tspan><tspan class="cls-8" x="15.74" y="24">T</tspan><tspan class="cls-14" x="26.48" y="24">ANTES</tspan></text>
+      <text class="cls-1" transform="translate(633.73 17.26)"><tspan x="0" y="0">NÃO URGENTES</tspan></text>
+      <text class="cls-1" transform="translate(420.06 142.58)"><tspan x="0" y="0">CRISES</tspan></text>
+      <text class="cls-1" transform="translate(377.84 342.22)"><tspan x="0" y="0">INTERRUPÇÕES</tspan></text>
+      <text class="cls-1" transform="translate(648.73 342.22)"><tspan x="0" y="0">DISTRAÇÕES</tspan></text>
+      <text class="cls-2" transform="translate(673.62 132.58)"><tspan x="0" y="0">ME</tspan><tspan class="cls-8" x="30" y="0">T</tspan><tspan x="40.74" y="0">AS E</tspan><tspan x="-38.89" y="24">PLANEJAMEN</tspan><tspan class="cls-7" x="98.89" y="24">T</tspan><tspan x="110.75" y="24">O</tspan></text>
+      <text class="cls-13" transform="translate(35.95 121.57)"><tspan x="0" y="0">Acrescentam valor e </tspan><tspan x="7.98" y="21.6">resultado e são de </tspan><tspan x="6.5" y="43.2">resolução imediata</tspan></text>
+      <text class="cls-13" transform="translate(47.93 312.42)"><tspan x="0" y="0">São de resolução </tspan><tspan x="-3.49" y="21.6">imediata, mas não </tspan><tspan x="-3.48" y="43.2">acrescentam valor</tspan></text>
+      <text class="cls-13" transform="translate(904 127.57)"><tspan x="0" y="0">Não são de resolução </tspan><tspan x="-22.49" y="21.6">imediata, mas acrescentam </tspan><tspan x="21.02" y="43.2">valor e resultado</tspan></text>
+      <text class="cls-13" transform="translate(901.46 314.42)"><tspan x="0" y="0">Não acrescentam valor </tspan><tspan x="3.99" y="21.6">nem são de resolução </tspan><tspan x="58.52" y="43.2">imediata</tspan></text>
+      <rect class="cls-10" x=".5" y="279.39" width="234.94" height="102.09" rx="28.59" ry="28.59"/>
+      <rect class="cls-11" x=".5" y="91.54" width="234.94" height="102.09" rx="28.59" ry="28.59"/>
+      <rect class="cls-12" x="876.52" y="279.39" width="234.94" height="102.09" rx="28.59" ry="28.59"/>
+      <rect class="cls-9" x="876.52" y="91.54" width="234.94" height="102.09" rx="28.59" ry="28.59"/>
+      <polyline class="cls-11" points="335.79 52.27 117.97 52.27 117.97 91.54"/>
+      <polyline class="cls-10" points="335.79 420.76 117.97 420.76 117.97 381.49"/>
+      <polyline class="cls-9" points="835.79 52.27 996.7 52.27 996.7 91.54"/>
+      <polyline class="cls-12" points="835.79 420.76 996.7 420.76 996.7 381.49"/>
+    </g>
+  </g>
+</svg>

@@ -1,5 +1,6 @@
 body {
   background-color: #DFE6E8;
+  font-family: 'Archivo';
 }
 
 main{
@@ -101,4 +102,139 @@ main{
   font-family: 'Archivo';
   font-size: 20px;
   margin-top: 70px;
+}
+
+.imagens-paralelas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+  gap: 15px;
+}
+
+.imagens-paralelas > img{
+  border: 1px solid #442D93;
+}
+
+.youtube-title{
+  font-family: 'Archivo';
+  color: #442D93;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.conteudos-paralelos{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.conteudos-paralelos > ul{
+  margin-left: 50px;
+  width: 50%;
+  list-style: none;
+}
+
+.conteudos-paralelos > ul li::before {
+  content: "—";
+  color: #442D93;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.conteudos-paralelos > ul > li{
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.apps-container{
+  background-color: #442D93;
+  padding: 5px;
+  width: 600px;
+  margin-left: 150px;
+}
+
+.lista-apps{
+  display: flex;
+  gap: 50px;
+}
+
+.lista-apps > ul, .conteudos-paralelos > div > ul{
+  list-style: none;
+}
+
+.lista-apps > ul li::before{
+  content: "—";
+  color: #FFF;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.lista-apps > ul > li{
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.conteudos-paralelos > div > ul li::before{
+  content: "—";
+  color: #000;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.card-roxo{
+  background-color: #442D93;
+  width: 75%;
+  margin-bottom: 50px;
+  color: #FFF;
+}
+
+.card-title-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title-area > h3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card-roxo > p{
+  font-size: 26px;
+  margin-left: 75px;
+  width: 90%;
+}
+
+.card-pre-teste{
+  border: 1px solid #442D93;
+  margin-bottom: 50px;
+  display: table;
+  width: 70%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-pre-teste > p{
+  padding: 12px;
+  font-size: 22px;
+  color: #442D93;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
 }
