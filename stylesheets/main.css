@@ -238,3 +238,93 @@ main{
   display: table-cell;
   vertical-align: middle;
 }
+
+.rea-teste-container{
+  width: 70%;
+  margin-top: 10px;
+}
+
+.teste-area{
+  margin-bottom: 40px;
+}
+
+.teste-area > span{
+  color: #442D93;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.teste-area > p{
+  font-size: 20px;
+}
+
+.teste-area > label{
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.teste-area > select{
+  padding: 7px;
+  margin-left: 5px;
+  width: 60px;
+  cursor: pointer;
+  background-color: #442D93;
+  color: #FFF;
+  font-weight: bold;
+}
+.teste-area > select:focus{
+  border: none;
+  outline: none;
+}
+
+.gera-resultado{
+  outline: none;
+  border: none;
+  background-color: #442D93;
+  padding: 10px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 26px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+.gera-resultado:hover{
+  background-color: rgba(68, 45, 147, .9);
+}
+.gera-resultado:focus{
+  outline: none;
+  border: none;
+}
+
+#texto-resultado > p{
+  font-size: 24px;
+}
+#texto-resultado > p > span{
+  font-weight: bold;
+}
+
+.resultado-teste-card{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.resultado-teste-card > img{
+  width: 30%;
+}
+
+.resultado-teste-card-text{
+  margin-top: 20px;
+}
+
+.resultado-teste-card-text > span{
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.resultado-teste-card-text > p{
+  font-size: 20px;
+}

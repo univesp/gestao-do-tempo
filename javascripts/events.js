@@ -58,6 +58,24 @@ $(document).ready(function(){
     })
     
   }
-  
+
+  const selects = document.querySelectorAll('select');
+  const botaoGeraResultado = document.querySelector('#geraResultado');
+  const areaTextoResultado = document.querySelector('#texto-resultado');
+  const arrayValores = [];
+
+  $(botaoGeraResultado).click(function(){
+    selects.forEach(e=>{ 
+      let notasNumeros = parseInt(e.value);
+      arrayValores.push(notasNumeros);
+    })
+
+    let soma = arrayValores.reduce((accumulator, value) => accumulator + value, 0);
+
+    console.log(soma);
+
+    areaTextoResultado.innerHTML = `<p>Resultado: Sua nota percentual de administração do tempo é de <span>${soma}%</span>.</p>`;
+    
+  })
 
 })
