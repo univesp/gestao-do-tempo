@@ -101,6 +101,8 @@ nav .nav-link[aria-expanded="true"] {}
 
 footer{
   background-color: #442D93;
+  font-family: 'Open Sans';
+  
 }
  footer, footer .sharing i {
   color: #fff;

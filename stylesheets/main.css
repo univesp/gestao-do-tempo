@@ -328,3 +328,43 @@ main{
 .resultado-teste-card-text > p{
   font-size: 20px;
 }
+
+.hr-final{
+  border: 1px solid rgba(68, 45, 147, .7);
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+
+.button-default{
+  background-color: #442D93;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 21px;
+  padding: 13px;
+}
+.button-default:hover{
+  background-color: rgba(68, 45, 147, .9);
+}
+.button-default:focus{
+  outline: none;
+  border: none;
+}
+
+.bibliografia-container{
+  margin-left: 14%;
+}
+
+.bibliografia-container > h3{
+  color: #442D93;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.bibliografia-container > p{
+  font-size: 20px;
+  width: 80%;
+}
