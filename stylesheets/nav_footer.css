@@ -52,7 +52,7 @@ nav .nav-link[aria-expanded="true"] {}
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
-  font-size: 74px;
+  font-size: 58px;
 }
 
 .line-title{
@@ -78,7 +78,7 @@ nav .nav-link[aria-expanded="true"] {}
 .inicio-text > p{
   font-family: 'Archivo';
   color: #fff;
-  font-size: 20pt;
+  font-size: 20px;
   width: 80%;
   text-align: center;
   margin-bottom: 30px;
@@ -91,7 +91,7 @@ nav .nav-link[aria-expanded="true"] {}
 
 .fa-chevron-down{
   color: #86acd1;
-  font-size: 90px;
+  font-size: 70px;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -137,5 +137,16 @@ main {
   main {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .rea-title > h1{
+    font-size: 48px;
+  }
+
+  .inicio-text > p{
+    font-size: 18px;
   }
 }
