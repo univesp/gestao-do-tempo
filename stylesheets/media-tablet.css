@@ -100,20 +100,48 @@
     margin-top: 7px;
   }
 
+  .texto-intermediario{
+    font-size: 16px;
+  }
+
   .lista-apps > ul > li{
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .apps-container{
     margin-left: 80px;
+    width: 355px;
+    margin-left: 30px;
   }
 
   .img-text-area{
     font-size: 16px;
+    width: 80%;
+    margin-top: 25px;
   }
 
   .img-text-image{
-    width: 45%;
+    width: 50%;
+  }
+
+  .paralelos-desktop{
+    display: none;
+  }
+
+  .conteudos-paralelos-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #last-paralalo-mobile-1{
+    margin-bottom: 20px;
+  }
+
+  .imagem-computador{
+    width: 50% !important;
   }
 
   .texto-corrido{
@@ -122,18 +150,21 @@
     width: 81.5% !important;
   }
 
-  .alunoOnline-section{
-    width: 35%; 
-    font-size: 16px;
+  .imagem-aluno-estudando{
+    width: 45%;
   }
 
   .card-roxo{
     width: 100%;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-roxo > p{
-    margin-left: 50px;
+    margin-left: 0;
     font-size: 18px;
   }
 
@@ -143,14 +174,19 @@
 
   table{
     width: 85%;
+    border: 1 !important;
   }
 
   .td-termo-title{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .td-termo-explicacao{
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .conteudo-content > p{
+    margin-left: 0;
   }
 
   .texto-teste{
@@ -158,50 +194,92 @@
   }
 
   .card-pre-teste{
-    width: 85%;
+    width: 96%;
   }
 
   .card-pre-teste > p{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .rea-teste-container{
     width: 85%;
   }
 
-  .teste-area > p{
-    font-size: 16px;
-  }
-
-  .teste-area > label{
+  .teste-area > span{
     font-size: 18px;
   }
 
+  .teste-area > p{
+    font-size: 15px;
+  }
+
+  .teste-area > label{
+    font-size: 16px;
+  }
+
   .teste-area > select{
-    width: 58px;
+    width: 50px;
+    padding: 4px;
   }
 
   .gera-resultado{
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .analise-resultado-title{
+    font-size: 34px;
+  }
+
+  .resultado-teste-card{
+    flex-direction: column;
   }
 
   #texto-resultado > p{
     font-size: 18px;
   }
 
+  .resultado-teste-card-text{
+    margin-top: 0;
+  }
+
   .resultado-teste-card-text > span{
     font-size: 25px;
+    margin-left: 33%;
   }
   .resultado-teste-card-text > p{
     font-size: 16px;
   }
 
   .resultado-teste-card > img{
-    width: 35%;
+    width: 55%;
+  }
+
+  .textos-finais{
+    width: 81%;
+  }
+
+  .button-default{
+    font-size: 15px;
+    padding: 9px;
+  }
+
+  .bibliografia-container{
+    margin-left: 7%;
+  }
+
+  .bibliografia-container > h3{
+    font-size: 32px;
   }
 
   .bibliografia-container > p{
-    width: 95%;
-    font-size: 16px;
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .center-mobile{
+    font-family: 'Archivo';
+    margin-left: 10% !important;
+    width: 80% !important;
+    font-size: 16px !important;
   }
 }

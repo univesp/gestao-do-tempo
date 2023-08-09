@@ -148,6 +148,10 @@ main{
   margin-bottom: 50px;
 }
 
+.conteudos-paralelos-mobile{
+  display: none;
+}
+
 .imagem-conteudo-paralelo{
   width: 40%; 
   border-top-right-radius: 50px; 
@@ -220,6 +224,10 @@ main{
   width: 75%;
   margin-bottom: 50px;
   color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-title-area{
@@ -239,7 +247,7 @@ main{
 
 .card-roxo > p{
   font-size: 20px;
-  margin-left: 75px;
+  margin-left: 0;
   width: 90%;
 }
 
@@ -466,8 +474,39 @@ thead{
   margin-top: 15px;
 }
 
+.texto-intermediario{
+  font-size: 18px; 
+  text-align: center; 
+  margin-left: 0;
+}
+
+.imagem-computador{
+  width: 40%;
+}
+
+.imagem-aluno-estudando{
+  width: 35%; 
+  border-radius: 30px; 
+  margin-bottom: 40px;
+}
+
+.analise-resultado-title{
+  font-size: 38px; 
+  color: #442D93; 
+  font-weight: bold;
+}
+
+.textos-finais{
+  width: 69%; 
+  margin-left: 0;
+}
+
 
 @media (min-width: 992px) and (max-width: 1200px){
+  .conteudos-paralelos-mobile{
+    display: none;
+  }
+
   #conteudoPrincipal > .container > p{
     padding: 0 50px;
   }
@@ -535,10 +574,14 @@ thead{
   .card-roxo{
     width: 100%;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-roxo > p{
-    margin-left: 50px;
+    margin-left: 0;
     font-size: 18px;
   }
 
