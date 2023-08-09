@@ -42,8 +42,11 @@ main{
 
 /* CONTEUDO */
 
-.conteudo{
-  margin-left: -50px;
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23442D93' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23442D93' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 .subtitle-area{
@@ -51,7 +54,8 @@ main{
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  gap: 100px;
+  gap: 50px;
+  margin-left: 20px;
 }
 
 .subtitle-title{
@@ -80,6 +84,10 @@ main{
 
 #conteudo5 > .subtitle-image > img, #conteudo6 > .subtitle-image > img, #conteudo7 > .subtitle-image > img, #conteudo8 > .subtitle-image > img{
   width: 130%;
+}
+
+.pareto-title{
+  font-size: 40px;
 }
 
 .conteudo-content{
@@ -138,6 +146,12 @@ main{
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.imagem-conteudo-paralelo{
+  width: 40%; 
+  border-top-right-radius: 50px; 
+  border-bottom-right-radius: 50px;
 }
 
 .conteudos-paralelos > ul{
@@ -594,5 +608,10 @@ thead{
   .bibliografia-container > p{
     width: 95%;
     font-size: 16px;
+  }
+
+  .subtitle-area{
+    gap: 50px;
+    margin-left: 85px;
   }
 }

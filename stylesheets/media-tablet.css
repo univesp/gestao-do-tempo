@@ -1,0 +1,207 @@
+@media (min-width: 768px) and (max-width: 992px){
+  .rea-title > h1{
+    font-size: 44px;
+  }
+
+  .inicio-text > p{
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .inicio-REA > img {
+    width: 55%;
+  }
+
+  #conteudoPrincipal > .container > p{
+    padding: 0 50px;
+    font-size: 16px;
+  }
+
+  .divisao-menu{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .menu-numeros{
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .menu-numeros > span{
+    font-size: 26px;
+  }
+
+  .subtitle-image > img{
+    width: 70%;
+  }
+
+  #conteudo3 > .subtitle-image > img, #conteudo4 > .subtitle-image > img{
+    width: 80%;
+  }
+
+  #conteudo5 > .subtitle-image > img, #conteudo6 > .subtitle-image > img, #conteudo7 > .subtitle-image > img, #conteudo8 > .subtitle-image > img{
+    width: 95%;
+  }
+
+  .subtitle-area{
+    gap: 35px;
+    margin-left: 100px;
+  }
+
+  .br-subtitle2{
+    display: none;
+  }
+
+  .subtitle-title > h2{
+    font-size: 24px;
+  }
+
+  .subtitle-title > p{
+    font-size: 16px;
+  }
+
+  .pareto-title{
+    font-size: 32px;
+  }
+
+  .conteudo-content > p{
+    font-size: 16px;
+    width: 78%;
+  }
+
+  .conteudo{
+    margin-left: 0;
+  }
+
+  .img-conteudo > p{
+    font-size: 16px;
+  }
+
+  .youtube-title{
+    font-size: 20px;
+  }
+
+  .conteudo-boagestao > h3{
+    font-size: 22px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .imagem-conteudo-paralelo{
+    width: 47%;
+  }
+
+  .conteudos-paralelos > ul{
+    margin-left: 0;
+  }
+
+  .conteudos-paralelos > ul > li{
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  .lista-apps > ul > li{
+    font-size: 18px;
+  }
+
+  .apps-container{
+    margin-left: 80px;
+  }
+
+  .img-text-area{
+    font-size: 16px;
+  }
+
+  .img-text-image{
+    width: 45%;
+  }
+
+  .texto-corrido{
+    font-size: 16px !important; 
+    margin-left: 0 !important;
+    width: 81.5% !important;
+  }
+
+  .alunoOnline-section{
+    width: 35%; 
+    font-size: 16px;
+  }
+
+  .card-roxo{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-roxo > p{
+    margin-left: 50px;
+    font-size: 18px;
+  }
+
+  .table-title{
+    font-size: 30px;
+  }
+
+  table{
+    width: 85%;
+  }
+
+  .td-termo-title{
+    font-size: 20px;
+  }
+
+  .td-termo-explicacao{
+    font-size: 16px;
+  }
+
+  .texto-teste{
+    font-size: 16px;
+  }
+
+  .card-pre-teste{
+    width: 85%;
+  }
+
+  .card-pre-teste > p{
+    font-size: 16px;
+  }
+
+  .rea-teste-container{
+    width: 85%;
+  }
+
+  .teste-area > p{
+    font-size: 16px;
+  }
+
+  .teste-area > label{
+    font-size: 18px;
+  }
+
+  .teste-area > select{
+    width: 58px;
+  }
+
+  .gera-resultado{
+    font-size: 20px;
+  }
+
+  #texto-resultado > p{
+    font-size: 18px;
+  }
+
+  .resultado-teste-card-text > span{
+    font-size: 25px;
+  }
+  .resultado-teste-card-text > p{
+    font-size: 16px;
+  }
+
+  .resultado-teste-card > img{
+    width: 35%;
+  }
+
+  .bibliografia-container > p{
+    width: 95%;
+    font-size: 16px;
+  }
+}
