@@ -1,0 +1,703 @@
+@media (min-width: 400px) and (max-width: 575px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .inicio-REA{
+    margin-top: 45px;
+  }
+
+  .rea-title > h1{
+    font-size: 30px;
+  }
+
+  .inicio-text > p{
+    font-size: 16px;
+    width: 95%;
+  }
+
+  .inicio-REA > img {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
+  #first-arrow-icon{
+    display: none;
+  }
+
+  #conteudoPrincipal > .container > p{
+    padding: 0 10px;
+    font-size: 16px;
+  }
+
+  .subtitle-image > img{
+    width: 40%;
+    margin-left: 25%;
+  }
+
+  #conteudo3 > .subtitle-image > img, #conteudo4 > .subtitle-image > img{
+    width: 70% !important;
+  }
+
+  #conteudo5 > .subtitle-image > img, #conteudo6 > .subtitle-image > img, #conteudo7 > .subtitle-image > img, #conteudo8 > .subtitle-image > img{
+    width: 80% !important;
+  }
+
+  .carousel-control-next, .carousel-control-prev{
+    top: -120px !important;
+  }
+
+  .subtitle-area{
+    gap: 5px;
+    margin-left: 15px;
+    margin-top: 45px;
+    margin-bottom: 150px;
+    flex-direction: column;
+  }
+
+  #first-inicio-icone{
+    display: none;
+  }
+
+  .br-subtitle2{
+    display: none;
+  }
+
+  .subtitle-title{
+    width: 65%;
+  }
+
+  .subtitle-title > h2{
+    font-size: 19px;
+  }
+
+  .subtitle-title > p{
+    font-size: 15px;
+  }
+
+  #pareto-title{
+    font-size: 30px;
+  }
+
+  .conteudo-content > p{
+    font-size: 16px;
+    width: 85%;
+  }
+
+  .conteudo{
+    margin-left: 0;
+  }
+
+  .img-conteudo > p{
+    font-size: 16px;
+    width: 85%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .youtube-title{
+    font-size: 17px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .conteudo-boagestao > h3{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .imagem-conteudo-paralelo{
+    width: 70%;
+    border-radius: 40px;
+  }
+
+  .aluno-online-title{
+    font-size: 26px; 
+  }
+
+  .conteudos-paralelos{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .conteudos-paralelos > ul{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .conteudos-paralelos > ul > li{
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  .texto-intermediario{
+    font-size: 16px;
+  }
+
+  .lista-apps > ul > li{
+    font-size: 14px;
+  }
+
+  .apps-container{
+    margin-left: 80px;
+    width: 355px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .img-text-area{
+    font-size: 16px;
+    width: 80%;
+    margin-top: 25px;
+  }
+
+  .img-text-image{
+    width: 70%;
+  }
+
+  .paralelos-desktop{
+    display: none;
+  }
+
+  .conteudos-paralelos-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #last-paralalo-mobile-1{
+    margin-bottom: 20px;
+  }
+
+  .imagem-computador{
+    width: 50% !important;
+  }
+
+  .texto-corrido{
+    font-size: 16px !important; 
+    margin-left: 0 !important;
+    width: 81.5% !important;
+  }
+
+  .imagem-aluno-estudando{
+    width: 62%;
+  }
+
+  .card-title-area > h3{
+    font-size: 26px;
+  }
+
+  .card-roxo{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-roxo > p{
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .conteudo-boagestao > h3{
+    font-size: 18px;
+  }
+
+  .table-title{
+    font-size: 30px;
+  }
+
+  table{
+    width: 95%;
+    border: 1 !important;
+  }
+
+  .td-termo-title{
+    font-size: 16px;
+  }
+
+  .td-termo-explicacao{
+    font-size: 13px;
+  }
+
+  .conteudo-content > p{
+    margin-left: 0;
+  }
+
+  .texto-teste{
+    font-size: 16px;
+  }
+
+  .card-pre-teste{
+    width: 96%;
+  }
+
+  .card-pre-teste > p{
+    font-size: 13px;
+  }
+
+  .rea-teste-container{
+    width: 85%;
+  }
+
+  .teste-area > span{
+    font-size: 16px;
+  }
+
+  .teste-area > p{
+    font-size: 14px;
+  }
+
+  .teste-area > label{
+    font-size: 16px;
+  }
+
+  .teste-area > select{
+    width: 50px;
+    padding: 4px;
+  }
+
+  .gera-resultado{
+    font-size: 16px;
+  }
+
+  .analise-resultado-title{
+    font-size: 26px;
+  }
+
+  .resultado-teste-card{
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  #texto-resultado > p{
+    font-size: 18px;
+  }
+
+  .resultado-teste-card-text{
+    margin-top: 0;
+  }
+
+  .resultado-teste-card-text > span{
+    font-size: 22px;
+    margin-left: 19%;
+  }
+  .resultado-teste-card-text > p{
+    font-size: 15px;
+  }
+
+  .resultado-teste-card > img{
+    width: 80%;
+  }
+
+  #fonteMobile{
+    font-size: 12px !important;
+  }
+
+  .textos-finais{
+    width: 81%;
+  }
+
+  .button-default{
+    font-size: 10px;
+    padding: 7px;
+  }
+
+  .bibliografia-container{
+    margin-left: 7%;
+  }
+
+  .bibliografia-container > h3{
+    font-size: 30px;
+  }
+
+  .bibliografia-container > p{
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .center-mobile{
+    font-family: 'Archivo';
+    margin-left: 8% !important;
+    width: 85% !important;
+    font-size: 16px !important;
+  }
+
+  .img-grafico-esfoco{
+    width: 75%;
+  }
+
+  .img-grafico-crise{
+    width: 90%;
+  }
+
+  .img-grafico-gestao{
+    width: 45%;
+  }
+
+  #inter-text{
+    font-size: 20px;
+  }
+
+  .img-pomodoro{
+    width: 40%;
+  }
+}
+
+
+/* SMALL MOBILE */
+@media (min-width: 210px) and (max-width: 399px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .inicio-REA{
+    margin-top: 45px;
+  }
+
+  .rea-title > h1{
+    font-size: 24px;
+  }
+
+  .inicio-text > p{
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .inicio-REA > img {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
+  #first-arrow-icon{
+    display: none;
+  }
+
+  #conteudoPrincipal > .container > p{
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  .subtitle-image > img{
+    width: 40%;
+    margin-left: 25%;
+  }
+
+  #conteudo3 > .subtitle-image > img, #conteudo4 > .subtitle-image > img{
+    width: 70% !important;
+  }
+
+  #conteudo5 > .subtitle-image > img, #conteudo6 > .subtitle-image > img, #conteudo7 > .subtitle-image > img, #conteudo8 > .subtitle-image > img{
+    width: 80% !important;
+  }
+
+  .carousel-control-next, .carousel-control-prev{
+    top: -120px !important;
+  }
+
+  .subtitle-area{
+    gap: 5px;
+    margin-left: 15px;
+    margin-top: 45px;
+    margin-bottom: 150px;
+    flex-direction: column;
+  }
+
+  #first-inicio-icone{
+    display: none;
+  }
+
+  .br-subtitle2{
+    display: none;
+  }
+
+  .subtitle-title{
+    width: 65%;
+  }
+
+  .subtitle-title > h2{
+    font-size: 19px;
+  }
+
+  .subtitle-title > p{
+    font-size: 15px;
+  }
+
+  #pareto-title{
+    font-size: 24px;
+  }
+
+  .conteudo-content > p{
+    font-size: 16px;
+    width: 85%;
+  }
+
+  .conteudo{
+    margin-left: 0;
+  }
+
+  .img-conteudo > p{
+    font-size: 14px;
+    width: 85%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .youtube-title{
+    font-size: 14px;
+    width: 85%;
+    text-align: center;
+  }
+
+  .conteudo-boagestao > h3{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .imagem-conteudo-paralelo{
+    width: 70%;
+    border-radius: 40px;
+  }
+
+  .aluno-online-title{
+    font-size: 26px; 
+  }
+
+  .conteudos-paralelos{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .conteudos-paralelos > ul{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .conteudos-paralelos > ul > li{
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  .texto-intermediario{
+    font-size: 16px;
+  }
+
+  .lista-apps > ul > li{
+    font-size: 10px;
+  }
+
+  .apps-container{
+    margin-left: 80px;
+    width: 270px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .img-text-area{
+    font-size: 16px;
+    width: 80%;
+    margin-top: 25px;
+  }
+
+  .img-text-image{
+    width: 70%;
+  }
+
+  .paralelos-desktop{
+    display: none;
+  }
+
+  .conteudos-paralelos-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #last-paralalo-mobile-1{
+    margin-bottom: 20px;
+  }
+
+  .imagem-computador{
+    width: 50% !important;
+  }
+
+  .texto-corrido{
+    font-size: 16px !important; 
+    margin-left: 0 !important;
+    width: 81.5% !important;
+  }
+
+  .imagem-aluno-estudando{
+    width: 62%;
+  }
+
+  .card-title-area > h3{
+    font-size: 26px;
+  }
+
+  .card-roxo{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-roxo > p{
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .conteudo-boagestao > h3{
+    font-size: 18px;
+  }
+
+  .table-title{
+    font-size: 30px;
+  }
+
+  table{
+    width: 95%;
+    border: 1 !important;
+  }
+
+  .td-termo-title{
+    font-size: 16px;
+  }
+
+  .td-termo-explicacao{
+    font-size: 13px;
+  }
+
+  .conteudo-content > p{
+    margin-left: 0;
+  }
+
+  .texto-teste{
+    font-size: 16px;
+  }
+
+  .card-pre-teste{
+    width: 96%;
+  }
+
+  .card-pre-teste > p{
+    font-size: 13px;
+  }
+
+  .rea-teste-container{
+    width: 85%;
+  }
+
+  .teste-area > span{
+    font-size: 16px;
+  }
+
+  .teste-area > p{
+    font-size: 14px;
+  }
+
+  .teste-area > label{
+    font-size: 16px;
+  }
+
+  .teste-area > select{
+    width: 50px;
+    padding: 4px;
+  }
+
+  .gera-resultado{
+    font-size: 16px;
+  }
+
+  .analise-resultado-title{
+    font-size: 26px;
+  }
+
+  .resultado-teste-card{
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  #texto-resultado > p{
+    font-size: 18px;
+  }
+
+  .resultado-teste-card-text{
+    margin-top: 0;
+  }
+
+  .resultado-teste-card-text > span{
+    font-size: 22px;
+    margin-left: 19%;
+  }
+  .resultado-teste-card-text > p{
+    font-size: 15px;
+  }
+
+  .resultado-teste-card > img{
+    width: 80%;
+  }
+
+  #fonteMobile{
+    font-size: 12px !important;
+  }
+
+  .textos-finais{
+    width: 81%;
+  }
+
+  .button-default{
+    font-size: 10px;
+    padding: 7px;
+  }
+
+  .bibliografia-container{
+    margin-left: 7%;
+  }
+
+  .bibliografia-container > h3{
+    font-size: 30px;
+  }
+
+  .bibliografia-container > p{
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .center-mobile{
+    font-family: 'Archivo';
+    margin-left: 8% !important;
+    width: 85% !important;
+    font-size: 14px !important;
+  }
+
+  .img-grafico-esfoco{
+    width: 75%;
+  }
+
+  .img-grafico-crise{
+    width: 90%;
+  }
+
+  .img-grafico-gestao{
+    width: 45%;
+  }
+
+  #inter-text{
+    font-size: 20px;
+  }
+
+  .img-pomodoro{
+    width: 40%;
+  }
+}

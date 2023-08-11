@@ -524,6 +524,12 @@ thead{
   width: 30%;
 }
 
+.aluno-online-title{
+  color: #442D93; 
+  font-size: 30px; 
+  font-weight: bold;
+}
+
 
 @media (min-width: 992px) and (max-width: 1200px){
   .conteudos-paralelos-mobile{
