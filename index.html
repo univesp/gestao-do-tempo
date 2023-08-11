@@ -39,6 +39,7 @@
   <link rel="stylesheet" href="stylesheets/nav_footer.css">
   <link rel="stylesheet" href="stylesheets/main.css">
   <link rel="stylesheet" href="stylesheets/media-tablet.css">
+  <link rel="stylesheet" href="stylesheets/media-small.css">
 
 
 <!--[if gte mso 9]><xml>
@@ -110,7 +111,7 @@
       <p style="width: 95%;">Então confira agora tudo sobre o que é gestão do tempo, desde a sua definição até a sua importância para o dia a dia de cada um.</p>
     </div>
 
-    <div class="inicio-icon">
+    <div id="first-arrow-icon" class="inicio-icon">
       <i class="fa fa-chevron-down"></i>
     </div>
 
@@ -287,7 +288,7 @@
   <div class="conteudo-content">
     <div class="rea-title">
       <span class="line-title"></span>
-      <h3 class="pareto-title" style="color: #442D93; text-transform:none; font-size: 40px;">Princípio de Pareto</h3>
+      <h3 id="pareto-title">Princípio de Pareto</h3>
       <span class="line-title"></span>
     </div>
 
@@ -298,7 +299,7 @@
     <p class="center-mobile">Nesse contexto, <strong>20% dos defeitos ou falhas são responsáveis por 80% dos problemas</strong>.</p>
 
     <div class="img-conteudo">
-      <img style="width: 60%;" src="https://apps.univesp.br/gestao-do-tempo/assets/grafico_esforco.svg" alt="Na imagem tem uma pessoa em pé segurando uma parte de um gráfico pizza, a parte que a pessoa está segurando corresponde a 20% do gráfico, tem a cor laranja e está nomeado como esforço. Os outros 80% do gráfico é azul e está nomeado como resultados.">
+      <img class="img-grafico-esfoco" src="https://apps.univesp.br/gestao-do-tempo/assets/grafico_esforco.svg" alt="Na imagem tem uma pessoa em pé segurando uma parte de um gráfico pizza, a parte que a pessoa está segurando corresponde a 20% do gráfico, tem a cor laranja e está nomeado como esforço. Os outros 80% do gráfico é azul e está nomeado como resultados.">
       <p>Agora que você já conheceu o Princípio de Pareto, vamos conhecer a Matriz de Gestão do Tempo.</p>
     </div>
 
@@ -309,17 +310,19 @@
 
   <div style="background-color: #DFE6E8;" class="conteudo-content">
     <div class="img-conteudo" style="margin-bottom: 50px; margin-top: 20px;">
-      <img style="width: 70%;" src="https://apps.univesp.br/gestao-do-tempo/assets/grafico_crise.svg" alt="Imagem dividida em duas colunas. Primeira coluna denominada: urgente, tem duas linhas: crises e interrupções. Da linha crise tem um balão escrito o seguinte: Acrescentam valor e resultado e são de resolução imediata. Da linha interrupções tem um balão escrito o seguinte: São de resolução imediata, mas não acrescentam valor. Segunda coluna denominada: não urgente, tem duas linhas: metas e planejamento e distrações. Da linha metas e planejamento tem um balão escrito o seguinte: Não são de resolução imediata, mas acrescentam valor e resultado. Da linha interrupções tem um balão escrito o seguinte: Não acrescentam valor e não são de resolução imediata Crises e metas e planejamentos estão classificadas como importantes. Interrupções e distrações estão classificadas como não importantes.">
-      <p style="font-weight: bold; font-size: 22px;">Você sabe como realizar a gestão do seu tempo?</p>
-      <img style="width: 30%; margin-top: 30px;" src="https://apps.univesp.br/gestao-do-tempo/assets/grafico_gestao.svg" alt="Fluxograma com 4 círculos interligados. O círculo 1, tem cor azul escuro e é denominado Planeje, tem uma seta ligando o círculo 1 com o círculo 2. O círculo 2, tem cor cinza e é denominado Otimiza, tem uma seta ligando o círculo 2 com o círculo 3. O círculo 3, tem cor verde e é denominado Preserve, tem uma seta ligando o círculo 3 com o círculo 4. O círculo 4, tem cor roxa e é denominado Priorize, tem uma seta ligando o círculo 4 com o círculo 1.">
+      <img class="img-grafico-crise" src="https://apps.univesp.br/gestao-do-tempo/assets/grafico_crise.svg" alt="Imagem dividida em duas colunas. Primeira coluna denominada: urgente, tem duas linhas: crises e interrupções. Da linha crise tem um balão escrito o seguinte: Acrescentam valor e resultado e são de resolução imediata. Da linha interrupções tem um balão escrito o seguinte: São de resolução imediata, mas não acrescentam valor. Segunda coluna denominada: não urgente, tem duas linhas: metas e planejamento e distrações. Da linha metas e planejamento tem um balão escrito o seguinte: Não são de resolução imediata, mas acrescentam valor e resultado. Da linha interrupções tem um balão escrito o seguinte: Não acrescentam valor e não são de resolução imediata Crises e metas e planejamentos estão classificadas como importantes. Interrupções e distrações estão classificadas como não importantes.">
+
+      <p id="inter-text">Você sabe como realizar a gestão do seu tempo?</p>
+
+      <img class="img-grafico-gestao" src="https://apps.univesp.br/gestao-do-tempo/assets/grafico_gestao.svg" alt="Fluxograma com 4 círculos interligados. O círculo 1, tem cor azul escuro e é denominado Planeje, tem uma seta ligando o círculo 1 com o círculo 2. O círculo 2, tem cor cinza e é denominado Otimiza, tem uma seta ligando o círculo 2 com o círculo 3. O círculo 3, tem cor verde e é denominado Preserve, tem uma seta ligando o círculo 3 com o círculo 4. O círculo 4, tem cor roxa e é denominado Priorize, tem uma seta ligando o círculo 4 com o círculo 1.">
     </div>
 
     <p class="center-mobile" style="text-align: center;">Com o intuito de aumentar a produtividade nos estudos, podemos indicar que assistam o vídeo a seguir sobre a <br> <strong>Técnica Pomodoro</strong>.</p>
 
     <div class="imagens-paralelas">
-      <img style="width: 30%;" src="https://apps.univesp.br/gestao-do-tempo/assets/pomodoro_1.png" alt="Imagem dividida em duas colunas: Coluna 1 - Está escrito tempo, abaixo da palavra tem um balão, dentro do balão tem algumas notas musicais e está escrito 25 minutos. Abaixo do balão tem a foto de um relógio de parede analógico, um temporizador de cozinha no formato de um tomate e um smartphone.Coluna 2 - o balão da coluna um tem uma seta apontando para a palavra POMODORI da coluna dois. Abaixo da palavre está escrito: foco em uma tarefa. Exemplos: Pesquisar sobre...">
+      <img class="img-pomodoro" src="https://apps.univesp.br/gestao-do-tempo/assets/pomodoro_1.png" alt="Imagem dividida em duas colunas: Coluna 1 - Está escrito tempo, abaixo da palavra tem um balão, dentro do balão tem algumas notas musicais e está escrito 25 minutos. Abaixo do balão tem a foto de um relógio de parede analógico, um temporizador de cozinha no formato de um tomate e um smartphone.Coluna 2 - o balão da coluna um tem uma seta apontando para a palavra POMODORI da coluna dois. Abaixo da palavre está escrito: foco em uma tarefa. Exemplos: Pesquisar sobre...">
 
-      <img style="width: 30%;" src="https://apps.univesp.br/gestao-do-tempo/assets/pomodoro_2.png" alt="Imagem dividida em duas colunas: Coluna 1 - Está escrito tempo, abaixo da palavra tem um balão, dentro do balão tem algumas notas musicais e está escrito 25 minutos. Abaixo do balão tem a foto de um relógio de parede analógico, um temporizador de cozinha no formato de um tomate e um smartphone.Coluna 2 - o balão da coluna um tem uma seta apontando para a palavra POMODORI da coluna dois. Abaixo da palavre está escrito: foco em uma tarefa. Exemplos: Pesquisar sobre...">
+      <img class="img-pomodoro" src="https://apps.univesp.br/gestao-do-tempo/assets/pomodoro_2.png" alt="Imagem dividida em duas colunas: Coluna 1 - Está escrito tempo, abaixo da palavra tem um balão, dentro do balão tem algumas notas musicais e está escrito 25 minutos. Abaixo do balão tem a foto de um relógio de parede analógico, um temporizador de cozinha no formato de um tomate e um smartphone.Coluna 2 - o balão da coluna um tem uma seta apontando para a palavra POMODORI da coluna dois. Abaixo da palavre está escrito: foco em uma tarefa. Exemplos: Pesquisar sobre...">
     </div>
 
     <a target="_blank" href="https://www.youtube.com/watch?v=hfxfJ7Qa4sg">
